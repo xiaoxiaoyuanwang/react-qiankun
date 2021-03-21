@@ -12,12 +12,13 @@ export const qiankun = new Promise((resolve,reject)=>{
   resolve([
     {
       name: 'app1',
-      entry: 'http://192.168.1.119:8001',
+      entry: '//localhost/:8001',
       activeRule: '/app1'
     },
     {
       name: 'app2',
-      entry: 'http://192.168.1.119:8002',
+      // entry: 'http://192.168.1.119:8002',
+      entry: '//localhost:8002',
       activeRule: '/app2'
     },
   ])
